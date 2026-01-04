@@ -1,0 +1,674 @@
+body {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Akash {
+  color: rgb(117, 34, 234);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#Akash:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+nav {
+  color: rgb(244, 246, 247);
+  display: flex;
+  gap: 5vw;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: large;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: rgb(122, 37, 240);
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  margin-left: 2vw;
+}
+
+#Hire-Me {
+  color: rgb(253, 254, 255);
+  background-color: rgb(114, 33, 205);
+  height: 7.5vh;
+  width: 8vw;
+  padding: 3px;
+  font-size: large;
+  border-radius: 5px;
+  border: none;
+}
+
+#Hire-Me:hover {
+  scale: 1.1;
+  cursor: pointer;
+  background-color: rgb(103, 28, 182);
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  margin-left: 2vw;
+  position: sticky;
+  top: 0;
+  width: 10vw;
+  margin-top: 5vh;
+}
+
+main {
+  justify-content: space-around;
+}
+
+.my-img {
+  float: right;
+  height: 50vh;
+  margin-top: -5vh;
+  border-radius: 100%;
+}
+
+.icons-1 {
+  height: 5vh;
+  text-decoration: none;
+}
+
+.icons-1:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+
+#section-1 {
+  margin-top: -58vh;
+  color: rgb(255, 255, 255);
+}
+
+#section-2 {
+  margin-top: 15vh;
+  margin-left: 10vw;
+  width: 75vw;
+}
+
+.para-1 {
+  color: rgb(173, 176, 178);
+  height: 6px;
+  margin-left: 5vw;
+}
+
+#button-1 {
+  background-color: rgb(114, 34, 205);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  height: 8vh;
+  width: 13vw;
+  border-radius: 5px;
+  margin-left: 5vw;
+  margin-top: 7vh;
+}
+
+#button-1:hover {
+  cursor: pointer;
+  background-color: rgb(103, 28, 182);
+  scale: 1.1;
+}
+
+#button-2 {
+  background-color: rgb(137, 87, 194);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  height: 8vh;
+  width: 14vw;
+  border-radius: 5px;
+  margin-left: 2vw;
+  margin-top: 7vh;
+}
+
+#button-2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: rgb(108, 66, 157);
+}
+
+#section-3 {
+  margin-top: 10vh;
+  color: rgb(255, 255, 255);
+  margin-bottom: 7vh;
+}
+
+#About-Me {
+  display: flex;
+  color: aliceblue;
+  font-size: x-large;
+  margin-left: 23vw;
+}
+
+.para-2 {
+  margin-left: 28vw;
+}
+
+.para-3 {
+  margin-left: 23vw;
+}
+
+#scroll {
+  height: 5vh;
+  margin-top: 1.5vh;
+}
+
+#down {
+  height: 8vh;
+}
+
+#scroll-down:hover {
+  cursor: pointer;
+}
+
+#main-content {
+  margin-right: -6vw;
+}
+
+.icons-2 {
+  height: 30px;
+}
+
+.icons-3 {
+  height: 50px;
+}
+
+.HTML {
+  height: 130px;
+}
+
+.CSS {
+  height: 70px;
+  margin-top: 3.3vh;
+  margin-left: -1vw;
+}
+
+.Javascript {
+  height: 110px;
+}
+
+.React {
+  height: 80px;
+  margin-left: 3.5vw;
+  margin-top: 2.5vh;
+}
+
+.C {
+  height: 120px;
+  margin-bottom: -1.7vh;
+}
+
+.C-plus-plus {
+  height: 95px;
+  margin-top: 2vh;
+  margin-left: 1.5vw;
+}
+
+.Java {
+  height: 120px;
+  margin-bottom: -1.5vh;
+  margin-left: 1vw;
+}
+
+.Python {
+  height: 80px;
+  margin-left: 4vw;
+  margin-top: 2vh;
+}
+
+.Bootstrap {
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 4vw;
+  margin-top: 3.5vh;
+}
+
+.Amazon-Clone-H {
+  margin-left: 35vw;
+  margin-top: 10vh;
+}
+
+.Amazon-Clone {
+  height: 25vh;
+  width: 50vw;
+  margin-left: 18vw;
+}
+
+.Netflix-Clone-H {
+  margin-left: 35vw;
+  margin-top: 10vh;
+}
+
+.Netflix-Clone {
+  height: 25vh;
+  width: 50vw;
+  margin-left: 18vw;
+}
+
+.Youtube-Clone-H {
+  margin-left: 35vw;
+  margin-top: 10vh;
+}
+
+.Youtube-Clone {
+  height: 25vh;
+  width: 50vw;
+  margin-left: 18vw;
+}
+
+.Starbucks-Clone-H {
+  margin-left: 35vw;
+  margin-top: 10vh;
+}
+
+.Starbucks-Clone {
+  height: 25vh;
+  width: 50vw;
+  margin-left: 18vw;
+}
+
+ul {
+  font-size: large;
+  margin-left: 10vw;
+}
+
+#section-4 {
+  color: rgb(255, 255, 255);
+}
+
+#skills {
+  margin-top: 18vh;
+  margin-left: 6vw;
+}
+
+#skills:hover {
+  cursor: pointer;
+}
+
+.skills-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4vw;
+}
+
+footer {
+  color: rgb(251, 253, 255);
+  display: flex;
+  margin-top: 20vh;
+  gap: 5vw;
+  margin-bottom: 5vh;
+}
+
+li {
+  margin-top: 2vh;
+  color: rgb(173, 176, 178);
+}
+
+#footer-div-one{
+  margin-left: 7vw;
+}
+
+@media (max-width: 1200px) {
+  #Hire-Me {
+    width: 10vw;
+    height: 6.5vh;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 922px) {
+  nav a {
+    font-size: medium;
+  }
+
+  header {
+    justify-content: space-evenly;
+  }
+
+  #Hire-Me {
+    width: 10vw;
+  }
+
+  .my-img {
+    float: none;
+    height: 70vh;
+    margin-left: 13vw;
+  }
+
+  #introduction-content {
+    display: flex;
+    margin-top: 5vh;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3vh;
+  }
+
+  #button-1 {
+    width: 23vw;
+    margin-left: 10vw;
+  }
+
+  #button-2 {
+    width: 23vw;
+    margin-left: 10vw;
+  }
+
+  #About-Me {
+    margin-left: 8vw;
+  }
+
+  .para-2 {
+    margin-left: 15vw;
+  }
+
+  .para-3 {
+    margin-left: 9vw;
+  }
+
+  .React {
+    margin-left: 7vw;
+  }
+.Java{
+  margin-left: 8vw;
+}
+
+  .Amazon-Clone-H {
+    margin-left: 40vw;
+  }
+
+  .Amazon-Clone {
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  .Netflix-Clone-H {
+    margin-left: 40vw;
+  }
+
+  .Netflix-Clone {
+    margin-left: 20vw;
+    width: 60vw;
+  }
+
+  .Youtube-Clone-H {
+    margin-left: 40vw;
+  }
+
+  .Youtube-Clone {
+    margin-left: 20vw;
+    width: 60vw;
+  }
+
+  .Starbucks-Clone-H {
+    margin-left: 40vw;
+  }
+
+  .Starbucks-Clone {
+    margin-left: 20vw;
+    width: 60vw;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #footer-div-one {
+    margin-left: 9vw;
+  }
+
+  .footer-skills {
+    margin-left: 10vw;
+  }
+
+  .footer-projects {
+    margin-left: 5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #Hire-Me {
+    height: 6vh;
+  }
+
+  .my-img {
+    float: none;
+    height: 60vh;
+    margin-left: 15vw;
+  }
+
+  #introduction-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18vw;
+  }
+
+  .buttons {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: -10vw;
+  }
+
+  #button-1 {
+    width: 23vw;
+  }
+
+  #button-2 {
+    width: 23vw;
+    margin-left: 5vw;
+  }
+
+  .image-1 {
+    display: none;
+  }
+  #About-Me {
+    margin-left: 14vw;
+  }
+
+  .para-2 {
+    margin-left: 14vw;
+  }
+
+  .para-3 {
+    margin-left: 14vw;
+  }
+
+  .Amazon-Clone-H {
+    margin-left: 42vw;
+  }
+
+  .Amazon-Clone {
+    width: 65vw;
+    margin-left: 20vw;
+  }
+  .Netflix-Clone-H {
+    margin-left: 42vw;
+  }
+
+  .Netflix-Clone {
+    margin-left: 20vw;
+    width: 65vw;
+  }
+
+  .Youtube-Clone-H {
+    margin-left: 42vw;
+  }
+
+  .Youtube-Clone {
+    margin-left: 20vw;
+    width: 65vw;
+  }
+
+  .Starbucks-Clone-H {
+    margin-left: 42vw;
+  }
+
+  .Starbucks-Clone {
+    margin-left: 20vw;
+    width: 65vw;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-skills {
+    margin-left: 8vw;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  #Akash {
+    margin-left: 23vw;
+    margin-bottom: -0.5vh;
+  }
+
+  nav {
+    margin-left: 25vw;
+    gap: 7vw;
+  }
+
+  #Hire-Me {
+    width: 50vw;
+    margin-left: 22vw;
+    font-size: xx-large;
+    height: 7vh;
+  }
+
+  .my-img {
+    float: none;
+    height: 40vh;
+    margin-left: 25vw;
+  }
+
+  #introduction-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 23vw;
+  }
+
+  .buttons {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: -14vw;
+  }
+
+  #button-1 {
+    width: 30vw;
+  }
+
+  #button-2 {
+    width: 30vw;
+    margin-left: 5vw;
+  }
+
+  .para-2 {
+    margin-left: 14vw;
+  }
+
+  .para-3 {
+    margin-left: 14vw;
+  }
+
+  .React{
+    margin-left: 12vw;
+  }
+
+  .C {
+    margin-left: 14vw;
+  }
+
+  .Bootstrap{
+    margin-left: 12vw;
+    margin-top: 4vh;
+  }
+
+  .Python{
+    margin-left: 14vw;
+    margin-top: 2.5vh;
+  }
+
+  .Amazon-Clone-H {
+    margin-left: 37vw;
+  }
+
+  .Amazon-Clone {
+    width: 80vw;
+    margin-left: 13vw;
+  }
+  .Netflix-Clone-H {
+    margin-left: 37vw;
+  }
+
+  .Netflix-Clone {
+    margin-left: 13vw;
+    width: 80vw;
+  }
+
+  .Youtube-Clone-H {
+    margin-left: 37vw;
+  }
+
+  .Youtube-Clone {
+    margin-left: 13vw;
+    width: 80vw;
+  }
+
+  .Starbucks-Clone-H {
+    margin-left: 37vw;
+  }
+
+  .Starbucks-Clone {
+    margin-left: 13vw;
+    width: 80vw;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-services {
+    margin-left: 9vw;
+  }
+
+  .footer-contact-me {
+    margin-left: 9vw;
+    margin-top: -15vh;
+  }
+}
