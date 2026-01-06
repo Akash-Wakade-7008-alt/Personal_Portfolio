@@ -7,6 +7,20 @@ body {
   color: rgb(117, 34, 234);
   font-size: xx-large;
   font-weight: bold;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(255, 2, 225),
+    rgb(136, 4, 208),
+    blue,
+    rgb(136, 4, 208),
+    rgb(255, 2, 225)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: project 2.5 s linear infinite;
 }
 
 #Akash:hover {
@@ -107,40 +121,88 @@ main {
   margin-left: 5vw;
 }
 
+#buttons {
+  border: 1px solid rgb(255, 254, 252);
+  display: flex;
+}
+
 #button-1 {
-  background-color: rgb(114, 34, 205);
+  /* background-color: rgb(114, 34, 205); */
+  background-color: black;
+  padding: 15px;
   border: none;
   color: rgb(255, 255, 255);
   font-size: x-large;
   height: 8vh;
   width: 13vw;
-  border-radius: 5px;
+  border-radius: 25px;
   margin-left: 5vw;
   margin-top: 7vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-1::after {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 107%;
+  border-radius: 1000px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(51, 63, 197),
+    rgb(188, 55, 188)
+  );
+  z-index: -1;
 }
 
 #button-1:hover {
   cursor: pointer;
   background-color: rgb(103, 28, 182);
   scale: 1.1;
+  z-index: 0;
 }
 
 #button-2 {
-  background-color: rgb(137, 87, 194);
+  background-color: rgb(0, 0, 0);
   border: none;
+  text-decoration: none;
+  padding: 10px;
   color: rgb(255, 255, 255);
   font-size: x-large;
   height: 8vh;
   width: 14vw;
-  border-radius: 5px;
-  margin-left: 2vw;
-  margin-top: 7vh;
+  border-radius: 25px;
+  margin-left: 22vw;
+  margin-top: -8vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#button-2::after {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 107%;
+  border-radius: 1000px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(51, 63, 197),
+    rgb(188, 55, 188)
+  );
+  z-index: -1;
 }
 
 #button-2:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: rgb(108, 66, 157);
+  z-index: 0;
 }
 
 #section-3 {
@@ -162,6 +224,25 @@ main {
 
 .para-3 {
   margin-left: 23vw;
+}
+
+.About-Me-H {
+  margin-left: 6vw;
+  margin-top: 10vh;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(255, 2, 225),
+    rgb(136, 4, 208),
+    blue,
+    rgb(136, 4, 208),
+    rgb(255, 2, 225)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: project 2.5 s linear infinite;
 }
 
 #scroll {
@@ -189,13 +270,49 @@ main {
   height: 50px;
 }
 
+
+
+.skills-1 {
+  display: flex;
+  margin-left: 4vw;
+  overflow-x: scroll;
+
+}
+
+
+#skills {
+  margin-top: 18vh;
+
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(255, 2, 225),
+    rgb(136, 4, 208),
+    blue,
+    rgb(136, 4, 208),
+    rgb(255, 2, 225)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: project 2.5 s linear infinite;
+}
+
+
+#skills:hover {
+  cursor: pointer;
+}
+
+
 .HTML {
   height: 130px;
+  margin-bottom:-3vh ;
 }
 
 .CSS {
   height: 70px;
-  margin-top: 3.3vh;
+  margin-bottom: 2vh;
   margin-left: -1vw;
 }
 
@@ -229,58 +346,105 @@ main {
 .Python {
   height: 80px;
   margin-left: 4vw;
-  margin-top: 2vh;
+  margin-bottom: 1vh;
 }
 
 .Bootstrap {
   height: 60px;
   border-radius: 10px;
   margin-left: 4vw;
-  margin-top: 3.5vh;
+ margin-bottom: 2vh;
 }
 
-.Amazon-Clone-H {
-  margin-left: 35vw;
-  margin-top: 10vh;
+.Project-H {
+  margin-top: 15vh;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgb(255, 2, 225),
+    rgb(136, 4, 208),
+    blue,
+    rgb(136, 4, 208),
+    rgb(255, 2, 225)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: project 2.5 s linear infinite;
 }
 
-.Amazon-Clone {
-  height: 25vh;
-  width: 50vw;
-  margin-left: 18vw;
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15vh;
 }
 
-.Netflix-Clone-H {
-  margin-left: 35vw;
-  margin-top: 10vh;
+.cards{
+  position: relative;
+  width: 170px;
+  height: 234px;
+  background-color: black;
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
-.Netflix-Clone {
-  height: 25vh;
-  width: 50vw;
-  margin-left: 18vw;
+.cards::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 200px;
+  height: 264px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, rgb(255, 3, 209) 0%, rgb(4, 209, 250) 100%);
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175,0.885,0.32,1.275);
+  z-index: -10;
 }
 
-.Youtube-Clone-H {
-  margin-left: 35vw;
-  margin-top: 10vh;
+.cards::after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(-45deg, rgb(255, 3, 209)0%, rgb(4, 209, 250) 100%);
+  transform: translate3d(0,0,0) scale(0.95);
+  filter: blur(20px);
 }
 
-.Youtube-Clone {
-  height: 25vh;
-  width: 50vw;
-  margin-left: 18vw;
+.heading{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  
 }
 
-.Starbucks-Clone-H {
-  margin-left: 35vw;
-  margin-top: 10vh;
+.cardsp:not(.heading)
+{
+  font-size: 14px;
+
 }
 
-.Starbucks-Clone {
-  height: 25vh;
-  width: 50vw;
-  margin-left: 18vw;
+.cards:hover::after{
+  filter: blur(30px);
+}
+
+.cards:hover::before{
+  transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+
+}
+
+.Amazon-Clone{
+  margin-left: 5vw;
 }
 
 ul {
@@ -292,20 +456,7 @@ ul {
   color: rgb(255, 255, 255);
 }
 
-#skills {
-  margin-top: 18vh;
-  margin-left: 6vw;
-}
 
-#skills:hover {
-  cursor: pointer;
-}
-
-.skills-1 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 4vw;
-}
 
 footer {
   color: rgb(251, 253, 255);
@@ -320,7 +471,7 @@ li {
   color: rgb(173, 176, 178);
 }
 
-#footer-div-one{
+#footer-div-one {
   margin-left: 7vw;
 }
 
@@ -332,7 +483,13 @@ li {
 
   .buttons {
     display: flex;
+   
   }
+
+#button-2{
+  margin-top: 7vh;
+  margin-left: 5vw;
+}
 
   main {
     display: flex;
@@ -392,47 +549,23 @@ li {
     margin-left: 9vw;
   }
 
-  .React {
-    margin-left: 7vw;
-  }
-.Java{
-  margin-left: 8vw;
+.projects{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
-  .Amazon-Clone-H {
-    margin-left: 40vw;
-  }
+.Amazon-Clone{
+  margin-left: 10vw;
+}
 
-  .Amazon-Clone {
-    width: 60vw;
-    margin-left: 20vw;
-  }
-  .Netflix-Clone-H {
-    margin-left: 40vw;
-  }
+.Youtube-Clone{
+  margin-left: 5vw;
+}
 
-  .Netflix-Clone {
-    margin-left: 20vw;
-    width: 60vw;
-  }
-
-  .Youtube-Clone-H {
-    margin-left: 40vw;
-  }
-
-  .Youtube-Clone {
-    margin-left: 20vw;
-    width: 60vw;
-  }
-
-  .Starbucks-Clone-H {
-    margin-left: 40vw;
-  }
-
-  .Starbucks-Clone {
-    margin-left: 20vw;
-    width: 60vw;
-  }
+.Starbucks-Clone{
+  margin-top: 5vh;
+  margin-left: 10vw;
+}
 
   footer {
     display: grid;
@@ -500,40 +633,25 @@ li {
     margin-left: 14vw;
   }
 
-  .Amazon-Clone-H {
-    margin-left: 42vw;
-  }
 
-  .Amazon-Clone {
-    width: 65vw;
-    margin-left: 20vw;
-  }
-  .Netflix-Clone-H {
-    margin-left: 42vw;
-  }
+.projects{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.Amazon-Clone{
+  margin-left: 18vw;
+}
 
-  .Netflix-Clone {
-    margin-left: 20vw;
-    width: 65vw;
-  }
+.Netflix-Clone{
+  margin-top: 8vh;
+  margin-left: 18vw;
+}
 
-  .Youtube-Clone-H {
-    margin-left: 42vw;
-  }
+.Starbucks-Clone{
+margin-left: 5.5vw;
+margin-top: 8vh;
+}
 
-  .Youtube-Clone {
-    margin-left: 20vw;
-    width: 65vw;
-  }
-
-  .Starbucks-Clone-H {
-    margin-left: 42vw;
-  }
-
-  .Starbucks-Clone {
-    margin-left: 20vw;
-    width: 65vw;
-  }
 
   footer {
     display: grid;
@@ -541,7 +659,7 @@ li {
   }
 
   .footer-skills {
-    margin-left: 8vw;
+    margin-left: 10vw;
   }
 }
 
@@ -605,58 +723,11 @@ li {
     margin-left: 14vw;
   }
 
-  .React{
-    margin-left: 12vw;
-  }
+.projects{
+  display: grid;
+  grid-template-columns: repeat(1fr);
+}
 
-  .C {
-    margin-left: 14vw;
-  }
-
-  .Bootstrap{
-    margin-left: 12vw;
-    margin-top: 4vh;
-  }
-
-  .Python{
-    margin-left: 14vw;
-    margin-top: 2.5vh;
-  }
-
-  .Amazon-Clone-H {
-    margin-left: 37vw;
-  }
-
-  .Amazon-Clone {
-    width: 80vw;
-    margin-left: 13vw;
-  }
-  .Netflix-Clone-H {
-    margin-left: 37vw;
-  }
-
-  .Netflix-Clone {
-    margin-left: 13vw;
-    width: 80vw;
-  }
-
-  .Youtube-Clone-H {
-    margin-left: 37vw;
-  }
-
-  .Youtube-Clone {
-    margin-left: 13vw;
-    width: 80vw;
-  }
-
-  .Starbucks-Clone-H {
-    margin-left: 37vw;
-  }
-
-  .Starbucks-Clone {
-    margin-left: 13vw;
-    width: 80vw;
-  }
 
   footer {
     display: grid;
@@ -672,3 +743,5 @@ li {
     margin-top: -15vh;
   }
 }
+
+
