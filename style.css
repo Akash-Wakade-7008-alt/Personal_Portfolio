@@ -271,16 +271,7 @@ main {
 }
 
 
-
-.skills-1 {
-  display: flex;
-  margin-left: 4vw;
-  overflow-x: scroll;
-
-}
-
-
-#skills {
+#skills-H{
   margin-top: 18vh;
 
   text-align: center;
@@ -305,6 +296,42 @@ main {
 }
 
 
+.skills{
+  display: flex;
+  margin-left: 10vw;
+  overflow-x: scroll;
+
+}
+
+.carousel{
+  overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar{
+  display: none;
+}
+
+.group{
+  display: flex;
+  animation: spin  5s infinite linear;
+  padding-right: 1em;
+}
+
+
+@keyframes spin {
+  from{
+    translate: 0;
+  }
+  to{
+    translate: -100%;
+  }
+  
+}
+
+.cards-1{
+  flex: 0 0 2em;
+}
+
 .HTML {
   height: 130px;
   margin-bottom:-3vh ;
@@ -312,7 +339,7 @@ main {
 
 .CSS {
   height: 70px;
-  margin-bottom: 2vh;
+ margin-top: 3vh;
   margin-left: -1vw;
 }
 
@@ -346,18 +373,18 @@ main {
 .Python {
   height: 80px;
   margin-left: 4vw;
-  margin-bottom: 1vh;
+  margin-top: 2vh;
 }
 
 .Bootstrap {
   height: 60px;
   border-radius: 10px;
   margin-left: 4vw;
- margin-bottom: 2vh;
+ margin-top: 4vh;
 }
 
 .Project-H {
-  margin-top: 15vh;
+  margin-top: 10vh;
   text-transform: uppercase;
   text-align: center;
   background: linear-gradient(
