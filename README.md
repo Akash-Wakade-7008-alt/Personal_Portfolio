@@ -111,8 +111,8 @@ This portfolio was created to:
 
 ## 🤝 Connect With Me
 
-📧 Email: akashwakade7355@gmail.com
-💼 LinkedIn: https://www.linkedin.com/in/akash-wakade-08b8412b2/
+📧 Email: akashwakade7355@gmail.com<br>
+💼 LinkedIn: https://www.linkedin.com/in/akash-wakade-08b8412b2/<br>
 💻 GitHub: https://github.com/Akash-Wakade-7008-alt
 
 ---
