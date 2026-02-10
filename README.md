@@ -59,23 +59,6 @@ Designed with a strong focus on **clean UI, smooth layout, and professional visu
 ✅ Beginner-Friendly Structure  
 ✅ Fast Loading  
 
----
-
-## 🧰 Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css&theme=dark"/>
-</p>
-
----
-
-## 📊 GitHub Insights
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Akash-Wakade-7008-alt&show_icons=true&theme=tokyonight"/>
-  <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Akash-Wakade-7008-alt&theme=tokyonight"/>
-</p>
 
 ---
 
@@ -123,7 +106,6 @@ This portfolio was built to:
 ✅ Asset organization  
 ✅ Deployment workflows  
 
-👉 These are core skills recruiters expect from modern frontend developers.
 
 ---
 
@@ -141,13 +123,13 @@ This portfolio was built to:
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="mailto:akashwakade7355@gmail.com">
+  <a href="mailto:akashwakade7355@gmail.com" style="text-decoration:none">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://www.linkedin.com/in/akash-wakade-08b8412b2/">
+  <a href="https://www.linkedin.com/in/akash-wakade-08b8412b2/" style="text-decoration:none">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://github.com/Akash-Wakade-7008-alt">
+  <a href="https://github.com/Akash-Wakade-7008-alt" style="text-decoration:none">
     <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
   </a>
 </p>
@@ -176,8 +158,3 @@ If you like this project, consider giving it a **STAR ⭐** — it motivates me 
   <img src="https://komarev.com/ghpvc/?username=Akash-Wakade-7008-alt&label=Profile%20Views&color=0e75b6&style=flat"/>
 </p>
 
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=150&section=footer"/>
-</p>
