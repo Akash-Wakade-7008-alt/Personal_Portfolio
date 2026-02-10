@@ -1,4 +1,3 @@
-
 # 🌐 Personal Portfolio Website
 
 A modern and responsive **personal portfolio website** built using **HTML and CSS** to showcase my projects, skills, and web development journey.
@@ -22,15 +21,11 @@ https://your-portfolio-link.vercel.app/
   <img src="images/preview-1.png" width="100%" alt="Hero Section"/><br>
 </p>
 
----
-
 ### 👨‍💻 About & Skills
 
 <p align="center">
   <img src="images/preview-2.png" width="100%" alt="About and Skills"/><br>
 </p>
-
----
 
 ### 🚀 Projects Section
 
@@ -48,16 +43,16 @@ https://your-portfolio-link.vercel.app/
 ✅ Project Showcase Section  
 ✅ Social Media Integration  
 ✅ Clean Typography  
-✅ Beginner-Friendly Code Structure  
+✅ Beginner-Friendly Code Structure
 
 ---
 
 ## 🛠️ Built With
 
-- **HTML5** — Semantic and accessible structure  
-- **CSS3** — Modern styling and layout  
-- **Flexbox** — Responsive alignment  
-- **Google Fonts** — Clean typography  
+- **HTML5** — Semantic and accessible structure
+- **CSS3** — Modern styling and layout
+- **Flexbox** — Responsive alignment
+- **Google Fonts** — Clean typography
 
 ---
 
@@ -88,30 +83,30 @@ portfolio/
 
 This portfolio was created to:
 
-- Showcase my web development skills  
-- Build a strong developer presence  
-- Practice real-world frontend design  
-- Deploy and manage a live project  
+- Showcase my web development skills
+- Build a strong developer presence
+- Practice real-world frontend design
+- Deploy and manage a live project
 
 ---
 
 ## 💡 What I Learned
 
-- Writing cleaner HTML structure  
-- Creating responsive layouts  
-- Improving UI/UX design sense  
-- Organizing project assets professionally  
-- Deploying websites  
+- Writing cleaner HTML structure
+- Creating responsive layouts
+- Improving UI/UX design sense
+- Organizing project assets professionally
+- Deploying websites
 
 ---
 
 ## 🔮 Future Improvements
 
-- Add JavaScript for interactivity  
-- Integrate animations  
-- Add a contact form  
-- Convert into a React portfolio  
-- Improve performance  
+- Add JavaScript for interactivity
+- Integrate animations
+- Add a contact form
+- Convert into a React portfolio
+- Improve performance
 
 ---
 
@@ -119,7 +114,7 @@ This portfolio was created to:
 
 📧 Email: your-email@gmail.com  
 💼 LinkedIn: https://linkedin.com/in/your-profile  
-💻 GitHub: https://github.com/your-username  
+💻 GitHub: https://github.com/your-username
 
 ---
 
