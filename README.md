@@ -1,57 +1,81 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=240&section=header&text=Personal%20Portfolio&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3500&color=36BCF7&center=true&vCenter=true&width=750&lines=Modern+Personal+Portfolio;Built+With+HTML+%26+CSS;Clean+UI+%7C+Responsive+Design;Turning+Ideas+Into+Web+Experiences"/>
+</p>
+
+---
+
 # 🌐 Personal Portfolio Website
 
-A modern and responsive **personal portfolio website** built using **HTML and CSS** to showcase my projects, skills, and web development journey.
+> A modern, responsive **personal portfolio website** crafted using **HTML and CSS** to showcase my projects, skills, and journey as a web developer.
 
-Designed with a focus on **clean UI, smooth layout, and strong visual hierarchy** to create a professional online presence.
+Designed with a strong focus on **clean UI, smooth layout, and professional visual hierarchy** to build a powerful online presence.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 **View Website:**
+<p align="center">
+  <a href="https://personal-portfolio-fz5l.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_View_Live_Portfolio-Vercel-000?style=for-the-badge&logo=vercel"/>
+  </a>
+</p>
 
-## https://personal-portfolio-fz5l.vercel.app/
+⭐ **Visit Here:**  
+👉 https://personal-portfolio-fz5l.vercel.app/
+
+---
 
 ## 📸 Preview
 
 ### 🏠 Hero Section
-
 <p align="center">
-  <img src="images/preview-1.png" width="100%" alt="Hero Section"/><br>
+  <img src="images/preview-1.png" width="100%" alt="Hero Section"/>
 </p>
 
 ### 👨‍💻 About & Skills
-
 <p align="center">
-  <img src="images/preview-2.png" width="100%" alt="About and Skills"/><br>
+  <img src="images/preview-2.png" width="100%" alt="About and Skills"/>
 </p>
 
 ### 🚀 Projects Section
-
 <p align="center">
-  <img src="images/preview-3.png" width="100%" alt="Projects Section"/><br>
+  <img src="images/preview-3.png" width="100%" alt="Projects Section"/>
 </p>
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-✅ Fully Responsive Design  
-✅ Modern Dark UI  
-✅ Smooth Navigation  
-✅ Project Showcase Section  
+✅ Fully Responsive Layout  
+✅ Modern Dark-Themed UI  
+✅ Smooth Section Navigation  
+✅ Dedicated Project Showcase  
 ✅ Social Media Integration  
 ✅ Clean Typography  
-✅ Beginner-Friendly Code Structure
+✅ Beginner-Friendly Structure  
+✅ Fast Loading  
 
 ---
 
-## 🛠️ Built With
+## 🧰 Tech Stack
 
-- **HTML5** — Semantic and accessible structure
-- **CSS3** — Modern styling and layout
-- **Flexbox** — Responsive alignment
-- **Google Fonts** — Clean typography
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css&theme=dark"/>
+</p>
+
+---
+
+## 📊 GitHub Insights
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Akash-Wakade-7008-alt&show_icons=true&theme=tokyonight"/>
+  <br/><br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Akash-Wakade-7008-alt&theme=tokyonight"/>
+</p>
 
 ---
 
@@ -80,50 +104,80 @@ portfolio/
 
 ## 🎯 Purpose of This Project
 
-This portfolio was created to:
+This portfolio was built to:
 
-- Showcase my web development skills
-- Build a strong developer presence
-- Practice real-world frontend design
-- Deploy and manage a live project
-
----
-
-## 💡 What I Learned
-
-- Writing cleaner HTML structure
-- Creating responsive layouts
-- Improving UI/UX design sense
-- Organizing project assets professionally
-- Deploying websites
+✔ Showcase my development skills  
+✔ Establish a strong online presence  
+✔ Practice real-world frontend design  
+✔ Deploy and manage a live website  
+✔ Continuously improve as a developer  
 
 ---
 
-## 🔮 Future Improvements
+## 🧠 What I Learned
 
-- Add JavaScript for interactivity
-- Integrate animations
-- Add a contact form
-- Convert into a React portfolio
-- Improve performance
+✅ Writing cleaner semantic HTML  
+✅ Creating responsive layouts  
+✅ Improving UI/UX design sense  
+✅ Structuring production-ready projects  
+✅ Asset organization  
+✅ Deployment workflows  
+
+👉 These are core skills recruiters expect from modern frontend developers.
+
+---
+
+## 🔮 Future Enhancements
+
+- Add JavaScript for interactivity  
+- Integrate advanced animations  
+- Build a functional contact form  
+- Upgrade to a React-based portfolio  
+- Improve Lighthouse performance score  
+- Add dark/light mode toggle  
 
 ---
 
 ## 🤝 Connect With Me
 
-📧 Email: akashwakade7355@gmail.com<br>
-💼 LinkedIn: https://www.linkedin.com/in/akash-wakade-08b8412b2/<br>
-💻 GitHub: https://github.com/Akash-Wakade-7008-alt
+<p align="center">
+  <a href="mailto:akashwakade7355@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/akash-wakade-08b8412b2/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Akash-Wakade-7008-alt">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
 ---
 
 ## ⭐ Support
 
-If you like this project, consider giving it a **star ⭐** — it helps and motivates me to build more!
+If you like this project, consider giving it a **STAR ⭐** — it motivates me to keep building and improving!
 
 ---
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 **Akash Wakade**  
-Frontend Developer | Lifelong Learner | Problem Solver
+
+🚀 Frontend Developer  
+💡 Lifelong Learner  
+🔥 Passionate About Building Real-World Projects  
+
+---
+
+## 👀 Visitor Counter
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Akash-Wakade-7008-alt&label=Profile%20Views&color=0e75b6&style=flat"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=150&section=footer"/>
+</p>
