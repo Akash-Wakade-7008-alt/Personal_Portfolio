@@ -8,10 +8,9 @@ Designed with a focus on **clean UI, smooth layout, and strong visual hierarchy*
 
 ## 🚀 Live Demo
 
-🔗 **View Website:**  
-https://your-portfolio-link.vercel.app/
+🔗 **View Website:**
 
----
+## https://personal-portfolio-fz5l.vercel.app/
 
 ## 📸 Preview
 
