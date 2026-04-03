@@ -86,6 +86,29 @@ portfolio/
 ```
 
 ---
+## ⚙️ Local Setup
+
+### Option 1: Clone the Repository
+
+```bash
+git clone https://github.com/Akash-Wakade-7008-alt/Personal_Portfolio.git
+
+cd Personal_Portfolio
+
+open index.html
+```
+
+### 📦 Option 2: Download ZIP
+
+Download the project directly:  
+👉 https://github.com/Akash-Wakade-7008-alt/Personal_Portfolio/releases/download/Personal_Portfoliov1.0/Personal_Portfolio.zip
+
+1. Download the ZIP file  
+2. Extract it  
+3. Open `index.html` in your browser  
+
+---
+
 
 ## 🎯 Purpose of This Project
 
